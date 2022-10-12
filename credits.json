@@ -1,0 +1,24 @@
+{
+    "credits": [
+        {
+            "asset": "Flappy Dragon Sprite",
+            "url": "https://opengameart.org/content/flappy-dragon-sprite-sheets",
+            "author": "bevouliin.com",
+            "license": "CC0"
+        },
+        {
+            "asset": "Bach Brandenburg Concerto No. 3, 1st Movement, BWV 1048",
+            "url": "https://www.8notes.com/scores/34173.asp?ftype=midi",
+            "author": "Johann Sebastian Bach",
+            "license": "CC0"
+
+        },
+        {
+            "asset": "Health and Mana Bars",
+            "url": "https://opengameart.org/content/health-and-mana-bars",
+            "author": "lancel",
+            "license": "CC-BY-SA-3.0"
+        }
+
+    ]
+}

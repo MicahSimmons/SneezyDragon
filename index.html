@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>CS42 Week08</title>
+
+  <link href="./style/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--div class='fontLoader' style='font-family:titles;'>Test Text</div-->
+  <!--div class='fontLoader' style='font-family:prompts;'>Test Text</div-->
+
+  <div class="gamecontainer">
+    <div class="gamegrid" id="tron"></div>
+  </div>
+  
+
+  <script src="./resources/MidiConvert.js"></script>
+  <script src="./resources/Tone.js"></script>
+  <script src='https://tboie.github.io/webaudio-tinysynth/webaudio-tinysynth.js'></script>
+
+  <script src="./resources/phaser.min.js"></script>
+  <script src="./scripts/wilde_example.js"></script>
+
+  <script src="./scripts/obj_utils.js"></script>
+  <script src="./scripts/bgm_midi.js"></script>
+  <script src="./scripts/obj_firebreath.js"></script>
+  <script src="./scripts/scene_opening.js"></script>
+
+  <script src="./scripts/obj_skybox.js"></script>
+  <script src="./scripts/obj_avatar.js"></script>
+  <script src="./scripts/obj_hud.js"></script>
+  <script src="./scripts/scene_game.js"></script>
+  <script src="./scripts/scene_closing.js"></script>
+	<script src="./scripts/main.js"></script>
+  <script>
+    var game_obj = new Game("tron");
+  </script>
+</body>
+
+</html>
